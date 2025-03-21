@@ -25,7 +25,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || "/",  
+  base: process.env.VITE_BASE_PATH || "/react-project",  
   resolve: {
     alias: {
       "@design": path.resolve("./src/app/components/design"),
