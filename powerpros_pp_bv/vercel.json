@@ -1,6 +1,10 @@
 {
-    "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
-    ]
+    "builds": [
+      {
+        "src": "vite.config.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "outputDirectory": "dist"
   }
   
