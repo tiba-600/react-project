@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sollicitaties",
+  "info": {
+    "singularName": "sollicitatie",
+    "pluralName": "sollicitaties",
+    "displayName": "Sollicitatie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "voornaam": {
+      "type": "string"
+    },
+    "achternaam": {
+      "type": "string"
+    },
+    "gsm": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "motivaties": {
+      "type": "text"
+    },
+    "cvupload": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "functie": {
+      "type": "enumeration",
+      "enum": [
+        "Internettechnieker ",
+        "Elektrotechnieker"
+      ]
+    }
+  }
+}

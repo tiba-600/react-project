@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "samenwerkings",
+  "info": {
+    "singularName": "samenwerking",
+    "pluralName": "samenwerkings",
+    "displayName": "Samenwerking",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "voornaam": {
+      "type": "string"
+    },
+    "achternaam": {
+      "type": "string"
+    },
+    "gsm": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "functietype": {
+      "type": "enumeration",
+      "enum": [
+        "Internettechnieker",
+        "Elektrotechnieker"
+      ]
+    },
+    "motivatie": {
+      "type": "text"
+    }
+  }
+}

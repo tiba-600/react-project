@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instructies",
+  "info": {
+    "singularName": "instructie",
+    "pluralName": "instructies",
+    "displayName": "Instructie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "vragen": {
+      "type": "json"
+    },
+    "antwoorden": {
+      "type": "json"
+    },
+    "imgCover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offerteaanvraags",
+  "info": {
+    "singularName": "offerteaanvraag",
+    "pluralName": "offerteaanvraags",
+    "displayName": "Offerteaanvraag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "voornaam": {
+      "type": "string"
+    },
+    "achternaam": {
+      "type": "string"
+    },
+    "gsm": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "projectbeschrijving": {
+      "type": "text"
+    },
+    "gewenste_startdatum": {
+      "type": "date"
+    },
+    "servicetype": {
+      "type": "enumeration",
+      "enum": [
+        "Wifi Installatie",
+        "Netwerkuitbreiding",
+        "Elektriciteitswerken"
+      ]
+    }
+  }
+}

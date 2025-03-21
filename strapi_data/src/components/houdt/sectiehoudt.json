@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_houdt_sectiehoudts",
+  "info": {
+    "displayName": "sectiehoudt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "listsectie": {
+      "type": "text"
+    },
+    "houdttitle": {
+      "type": "string"
+    }
+  }
+}

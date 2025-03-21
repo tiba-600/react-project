@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "over_ons",
+  "info": {
+    "singularName": "over-on",
+    "pluralName": "over-ons",
+    "displayName": "OverOn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "imgCover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "naam": {
+      "type": "string"
+    },
+    "stad": {
+      "type": "string"
+    },
+    "reviews": {
+      "type": "text"
+    },
+    "imgCoverons": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

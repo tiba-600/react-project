@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_formuliers",
+  "info": {
+    "singularName": "contact-formulier",
+    "pluralName": "contact-formuliers",
+    "displayName": "ContactFormulier",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "voornaam": {
+      "type": "string"
+    },
+    "achternaam": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "onderwerp": {
+      "type": "string"
+    },
+    "bericht": {
+      "type": "text"
+    }
+  }
+}

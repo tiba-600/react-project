@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactinfos",
+  "info": {
+    "singularName": "contactinfo",
+    "pluralName": "contactinfos",
+    "displayName": "contactinfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "gsm": {
+      "type": "string"
+    },
+    "tijd": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

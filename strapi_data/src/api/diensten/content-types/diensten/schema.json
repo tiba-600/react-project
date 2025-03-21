@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dienstens",
+  "info": {
+    "singularName": "diensten",
+    "pluralName": "dienstens",
+    "displayName": "Diensten",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imgCoverDiensten": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "titletext": {
+      "type": "text"
+    },
+    "titleHoudt": {
+      "type": "enumeration",
+      "enum": [
+        "houdtlist"
+      ]
+    },
+    "Houdttitle": {
+      "type": "string"
+    },
+    "houdtlist": {
+      "type": "text"
+    },
+    "titlekiezen": {
+      "type": "string"
+    },
+    "kiezenlist": {
+      "type": "text"
+    }
+  }
+}

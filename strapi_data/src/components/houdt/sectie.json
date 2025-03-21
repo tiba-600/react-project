@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_houdt_secties",
+  "info": {
+    "displayName": "sectie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectie": {
+      "type": "string"
+    },
+    "listsectie": {
+      "type": "text"
+    }
+  }
+}
