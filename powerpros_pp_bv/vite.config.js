@@ -14,7 +14,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || "/powerpros.pp.bv",
+  base: process.env.VITE_BASE_PATH || "/react-project",
   resolve: {
     alias: {
       "@design": path.resolve("./src/app/components/design"),
